@@ -51,3 +51,27 @@
 
 12. Why conditional Rendering is Necessary in React Applications?
 - Improved user Experience and Performance, simplified code, flexibility.  
+
+
+### Hooks Types
+- State hooks
+- Context hooks
+- Ref hooks
+- Effect hooks
+- Performance hooks
+- others
+
+### React State Hooks
+1. What exactly is state?
+2. Why useState() is needed?
+3. 5 use cases of useState() :
+- State management
+- conditional rendering
+- Toggle flags (true/false)
+- Counter 
+- Store API data in State.
+
+### Effects in React 
+1. What is UseEffect?
+
+
