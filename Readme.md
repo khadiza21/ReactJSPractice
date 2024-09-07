@@ -44,3 +44,10 @@
 - Array literals
 - JSX 
 - Variables having any kind of value
+
+11. What is conditional rendering? 
+- The process of displaying different content based on certain conditions or states.
+- To create dynamic user interfaces that can adapt to changes in data and UI.
+
+12. Why conditional Rendering is Necessary in React Applications?
+- Improved user Experience and Performance, simplified code, flexibility.  
