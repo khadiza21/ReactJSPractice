@@ -4,6 +4,14 @@
 - 38-1
 
 ## React JS core Concept
+- Components
+- JSX 
+- Props
+- Event Handler
+- State 
+- Load Data
+
+
 0. 4 ways to Define components
 - similar in look, different in data
 - container component
