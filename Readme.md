@@ -1,6 +1,8 @@
 # REACT JS
 
 ## https://react.dev/learn
+## https://react.dev/learn/updating-arrays-in-state
+
 
 ### What is React , React VS Angular Vs Vue
 - 38-1
@@ -62,6 +64,19 @@
 12. Why conditional Rendering is Necessary in React Applications?
 - Improved user Experience and Performance, simplified code, flexibility.  
 
+13. What is Th Virtual DOM In React JS?
+14. What is Virtual DOM? 
+- Lightweight copy of a DOM object
+- Has properties the same as real DOM object
+- Make changes in the DOM with the help of the Diff Algorithm.
+
+15. How work V DOM? 
+16. Virtual DOM vs Real DOM?
+17. What is Render in react?
+18. How does rendering happen?
+19. Rendering vs Re-rendering?
+20. Server and client side rendering? when use them?
+
 
 ### Hooks Types
 - State hooks
@@ -83,5 +98,20 @@
 
 ### Effects in React 
 1. What is UseEffect?
+
+
+### API
+- Fre Mock api
+- Beeceptor
+- public api
+- swagger api
+
+### Data save
+1. DB
+2. Browser 
+- LS
+- SS
+- IndexDB
+- cookies
 
 

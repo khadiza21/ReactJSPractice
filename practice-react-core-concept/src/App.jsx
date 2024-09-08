@@ -30,11 +30,11 @@ alert('Button Clicked')
       ></Todo>
 
       {
-        books.map(book => <Books name={book}></Books>)
+        books.map(book => <Books key={books[book]} name={book}></Books>)
       }
       <Books name={'React'}></Books>
       {
-        students.map(student => <Student  student={student}></Student>)
+        students.map(student => <Student key={student.id}  student={student}></Student>)
       }
 
 
