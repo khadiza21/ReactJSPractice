@@ -79,6 +79,17 @@
 19. Rendering vs Re-rendering?
 20. Server and client side rendering? when use them?
 21. Controlled and Uncontrolled Component in React JS?
+22. What are different ways to reuse react Components? - Higher Order, render props, Children , etc.
+23. Passing Data deeply with context.( React dev / learn)
+24. How to Use Context API to Avoid Prop Drilling ? 
+25. Usages of Context API in different purpose.
+26. Context Step :
+- 1: Create a Context Object
+- 2: Wtap the parent component with provider
+- 3: Consume the context.
+27. Custom Hooks. Rules of Custom hooks.
+28. Form Reuseable using props and children.
+
 
 
 ### Hooks Types

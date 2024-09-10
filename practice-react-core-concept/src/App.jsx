@@ -1,4 +1,5 @@
 import './App.css'
+import HookForm from './Form/HookForm'
 import RefForm from './Form/RefForm'
 import SimpleForm from './Form/SimpleFrom/SimpleForm'
 import StateFullForm from './Form/StateFullForm/StateFullForm'
@@ -12,6 +13,7 @@ function App() {
  {/* <CoreConcept1></CoreConcept1> */}
 <StateFullForm></StateFullForm>
 <RefForm></RefForm>
+<HookForm></HookForm>
     </>
   )
 }
