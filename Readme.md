@@ -78,6 +78,7 @@
 18. How does rendering happen?
 19. Rendering vs Re-rendering?
 20. Server and client side rendering? when use them?
+21. Controlled and Uncontrolled Component in React JS?
 
 
 ### Hooks Types
