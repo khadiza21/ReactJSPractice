@@ -90,6 +90,19 @@
 27. Custom Hooks. Rules of Custom hooks.
 28. Form Reuseable using props and children.
 
+### Firebase and authentication
+1. Authentication vs Authorize
+2. Authentication Methods - (Fingerprint, Security question, pass, sms/voice/email OTP, Software OTP, Physical and U2F Tokens, Biometrics based... )
+3. What is Firebase?
+4. Is firebase frontend or backend?
+5. What is firebase architecture? 
+6. What are the features of firebase? / What are the tasks you can accomplish with firebase?
+7. Difference between firebase and mongoDB.
+8. Have you ever used firebase database (real time database)?
+9. Can you briefly explain the github authentication process with firebase?
+10. Which method is used to Sign-in the user in Firebase Email/Password authentication?
+11. Which authentication methods have you ever used for your project purpose?
+
 
 
 ### Hooks Types
