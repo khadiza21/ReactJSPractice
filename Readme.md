@@ -102,6 +102,16 @@
 9. Can you briefly explain the github authentication process with firebase?
 10. Which method is used to Sign-in the user in Firebase Email/Password authentication?
 11. Which authentication methods have you ever used for your project purpose?
+12. Firebase SDK
+13. Firebase Authentication 
+14. Principles of OAuth 2.0 
+15. How OAuth 2.0 works?
+16. OAuth access tokens and authorization code. (Authorization Grant, Refresh Token , Access Token)
+17. What happen in User authentication in Firebase?
+20. Some Firebase Reference - (initializeApp(),FirebaseApp, getAuth(app), OAuthProvider, OAuthCredential )
+
+21. Context API use step: 
+
 
 
 
@@ -143,6 +153,47 @@
 
 
 #### React Awesome Components
+#### React Moment JS
+#### React Marquee
+#### Large React Structure Project Structure
+#### Large React Structure page wise Project Structure
 
+
+# Server side
+
+## Backend & Database Integrate (M-54)
+### NODE JS
+0. What is server?
+1. Server type: Web Server, File server, Application server, Database server?
+2. What is Node JS? (JS Library, Runtime Environment)
+3. Why Node JS?
+4. JS vs Node JS Runtime environment. 
+5. Node JS (Fast Data Streaming, No Buffering, JS, Cross Platform Compatibility,
+Asynchronous, Event - Driven, Highly Scalable, Single Threaded)
+6. Event Driven in NODE JS.
+7. When to use Node JS
+8. When not to use Node JS
+9. Node JS features (V. Fast, No Buffering, Async and Event Driven, Single Threaded But Highly Scalable)
+10. Where to use Node JS?
+11. Why  you learn Node JS ? 
+
+### Express JS
+12. What is Express JS
+13. Node JS vs Express JS
+14. What is Express JS Middleware? how Work? 
+15. Why Express JS. 
+
+### Database, DBMS, MongoDB, MongoDB vs MYSQL
+16. What is data?
+17. What is Database?
+18. Types of Database? Intro . 
+19. What is DBMS? Example. 
+20. DBMS Structure Types.
+21. DBMS 3 Tier Architecture.
+22. SQL Database Define. Character ? Example. 
+23. NoSQL Database Define. Character ? Example. 
+25. SQL Vs NoSQL
+26. About MongoDB and it's Characteristics?
+27. Advantages of MongoDB.
 
 

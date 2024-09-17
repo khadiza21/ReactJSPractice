@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Invoice</title>
+    <style>
+        *{
+           font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;   
+        }
+        body {
+          height: 100vh;
+            /* display: flex; */
+        }
+        .invoice-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000;
+            background-color: rgba(233, 233, 162, 0.808);
+        }
+        .header, .details, .items {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+        .header h2 {
+            margin: 0;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+        }
+        .details div {
+            width: 48%;
+        }
+        .items table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .items table, .items th, .items td {
+            border: 1px solid #000;
+        }
+        .items th, .items td {
+            padding: 10px;
+            text-align: center;
+        }
+        .total {
+            text-align: right;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .details {
+                flex-direction: column;
+            }
+            .details div {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <div>
+                <h2>Sales Invoice</h2>
+                <p>John Doe<br>128 First Avenue<br>Sydney, NSW 2251<br>Australia</p>
+            </div>
+            <div>
+                <p>Invoice No.: 0000<br>Date: 12/09/2024</p>
+            </div>
+        </div>
+        <div class="details">
+            <div>
+                <strong>Bill To:</strong><br>
+                Henry Higgins<br>1 Main St.<br>Melbourne, Victoria 3005<br>Australia
+            </div>
+            <div>
+                <strong>Invoice Info:</strong><br>
+                Terms: 15 days<br>Due Date: 27/09/2024<br>Salesperson: Jane Smith
+            </div>
+        </div>
+        <div class="items">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item 1 description</td>
+                        <td>15</td>
+                        <td>$10.00</td>
+                        <td>$150.00</td>
+                    </tr>
+                    <tr>
+                        <td>Item 2 description</td>
+                        <td>10</td>
+                        <td>$5.50</td>
+                        <td>$55.00</td>
+                    </tr>
+                    <tr>
+                        <td>Item 3 description</td>
+                        <td>20</td>
+                        <td>$5.50</td>
+                        <td>$110.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total">
+                <strong>Total: $315.00</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

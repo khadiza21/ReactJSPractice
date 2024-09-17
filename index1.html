@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australian GST Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .invoice-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000;
+            background-color:  rgba(233, 162, 226, 0.669);
+        }
+        .header, .details, .items {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+        .header h2 {
+            margin: 0;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+        }
+        .details div {
+            width: 48%;
+        }
+        .items table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .items table, .items th, .items td {
+            border: 1px solid #000;
+        }
+        .items th, .items td {
+            padding: 10px;
+            text-align: center;
+        }
+        .total {
+            text-align: right;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .details {
+                flex-direction: column;
+            }
+            .details div {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <div>
+                <h2>Australian GST Invoice</h2>
+                <p>John Doe<br>128 First Avenue<br>Sydney, NSW 2251<br>Australia</p>
+            </div>
+            <div>
+                <p>Invoice No.: 0001<br>Date: 12/09/2024</p>
+            </div>
+        </div>
+        <div class="details">
+            <div>
+                <strong>Bill To:</strong><br>
+                Henry Higgins<br>1 Main St.<br>Melbourne, Victoria 3005<br>Australia
+            </div>
+            <div>
+                <strong>Invoice Info:</strong><br>
+                ABN: 123456789<br>PO: 987654321
+            </div>
+        </div>
+        <div class="items">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product name</td>
+                        <td>10</td>
+                        <td>$10.00</td>
+                        <td>$100.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total">
+                <p>Subtotal: $100.00</p>
+                <p>GST: $10.00</p>
+                <strong>Total with GST: $110.00</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
